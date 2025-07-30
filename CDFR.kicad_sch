@@ -2797,231 +2797,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:TEN_15-2411WI"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PS"
-				(at 39.37 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TEN_15-2411WI"
-				(at 39.37 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TEN152411WI"
-				(at 39.37 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://tracopower.com/ten15wi-datasheet/"
-				(at 39.37 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "15 Watt DC/DC converter, industrial, 4:1 input, encapsulated, 2\" x 1\" metal package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "10.7"
-				(at 39.37 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Traco Power"
-				(at 39.37 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TEN 15-2411WI"
-				(at 39.37 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "495-TEN15-2411WI"
-				(at 39.37 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEN-15-2411WI?qs=ckJk83FOD0V4P5vtexwoVg%3D%3D"
-				(at 39.37 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 39.37 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 39.37 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TEN_15-2411WI_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 38.1 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "+VIN_(VCC)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "-VIN_(GND)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -2.54 180)
-					(length 5.08)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 0 180)
-					(length 5.08)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "REMOTE_ON/OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -3458,10 +3233,6 @@
 	(no_connect
 		(at 115.57 89.535)
 		(uuid "0f05b003-bb51-4d2c-9c0c-d54a56946eac")
-	)
-	(no_connect
-		(at 63.5 27.94)
-		(uuid "10b73081-a7e0-402b-b13f-043dacbd17e5")
 	)
 	(no_connect
 		(at 115.57 86.995)
@@ -4283,7 +4054,6 @@
 	)
 	(label "I2C_CLK"
 		(at 96.52 79.375 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4294,7 +4064,6 @@
 	)
 	(label "I2C_SDA"
 		(at 95.25 76.835 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4623,155 +4392,6 @@
 			(project "CDFR"
 				(path "/4baf3cc7-e737-4c25-a00c-bc79957d9384"
 					(reference "J8_UART0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TEN_15-2411WI")
-		(at 63.5 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a45f375-5b36-49a1-8620-6b21483767f2")
-		(property "Reference" "PS2"
-			(at 85.09 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TEN_15-2411WI"
-			(at 85.09 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TEN152411:TEN152411WI"
-			(at 102.87 122.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tracopower.com/ten15wi-datasheet/"
-			(at 102.87 222.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "15 Watt DC/DC converter, industrial, 4:1 input, encapsulated, 2\" x 1\" metal package"
-			(at 63.5 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.7"
-			(at 102.87 422.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Traco Power"
-			(at 102.87 522.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TEN 15-2411WI"
-			(at 102.87 622.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "495-TEN15-2411WI"
-			(at 102.87 722.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEN-15-2411WI?qs=ckJk83FOD0V4P5vtexwoVg%3D%3D"
-			(at 102.87 822.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 102.87 922.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 102.87 1022.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7a87c40a-f1a7-4384-8eea-7f68ba9d22f8")
-		)
-		(pin "2"
-			(uuid "de692133-5ffa-4b77-9daa-d9b6a39bf76a")
-		)
-		(pin "3"
-			(uuid "b0d30bf3-0bf0-49f0-9004-e7be4d70f05a")
-		)
-		(pin "1"
-			(uuid "832557f0-fe60-4eab-b890-4a0cb56d4226")
-		)
-		(pin "5"
-			(uuid "6f88de70-21cc-4604-87cb-240df0812c14")
-		)
-		(instances
-			(project ""
-				(path "/4baf3cc7-e737-4c25-a00c-bc79957d9384"
-					(reference "PS2")
 					(unit 1)
 				)
 			)
@@ -6102,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "raspberryPi:EmpreintPourShiel_RaspberryPi3B"
+		(property "Footprint" "footprints:EmpreintPourShiel_RaspberryPi3B"
 			(at 140.97 102.235 0)
 			(effects
 				(font
@@ -6121,7 +5741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nSingle Board Computer, Model B+ 1GB RAM,Raspberry Pi 3 Series | Raspberry Pi RASPBERRY PI 3 MODEL B+\n"
+		(property "Description" "Single Board Computer, Model B+ 1GB RAM,Raspberry Pi 3 Series | Raspberry Pi RASPBERRY PI 3 MODEL B+"
 			(at 140.97 102.235 0)
 			(effects
 				(font
@@ -6487,7 +6107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlockBend:CUI_TBP01R1-508-02BE"
+		(property "Footprint" "footprints:CUI_TBP01R1-508-02BE"
 			(at 38.1 27.94 0)
 			(effects
 				(font
@@ -6901,7 +6521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FuseHolder:FUSE_0154004.DR"
+		(property "Footprint" "footprints:FUSE_0154004.DR"
 			(at 55.88 48.26 0)
 			(effects
 				(font
@@ -7461,7 +7081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.902 80.645 90)
 			(effects
 				(font
@@ -7598,7 +7218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.282 83.185 90)
 			(effects
 				(font

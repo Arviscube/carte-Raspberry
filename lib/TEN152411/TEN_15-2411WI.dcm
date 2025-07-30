@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TEN_15-2411WI
-D 15 Watt DC/DC converter, industrial, 4:1 input, encapsulated, 2" x 1" metal package
-K
-F https://tracopower.com/ten15wi-datasheet/
-$ENDCMP
-#
-#End Doc Library
